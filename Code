@@ -1,0 +1,27 @@
+import mouse
+import keyboard
+import time
+import random
+mouse.move(66, 1058, True, 0)
+mouse.press(button='left')
+mouse.release(button='left')
+time.sleep(0.3)
+mouse.move(107, 1009, True, 0)
+time.sleep(0.3)
+mouse.press(button='left')
+mouse.release(button='left')
+keyboard.write('notepad')
+time.sleep(0.3)
+mouse.move(927, 575, True, 0)
+time.sleep(0.3)
+mouse.press(button='left')
+mouse.release(button='left')
+time.sleep(0.5)
+mouse.move(1353, 320, True, 0)
+mouse.press(button='left')
+mouse.release(button='left')
+x = random.randint(0, 1919)
+y = random.randint(0, 1079)
+while True:
+    keyboard.write('COCK ')
+    mouse.move(x, y, True, 0.3)
